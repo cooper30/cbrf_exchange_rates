@@ -1,5 +1,6 @@
 ## Python client for CBRF Rates API
 cbrf_exchange_rates - это модуль для скачивания курсов валют с сайта cbr.ru (Центральный банк Российской Федерации)
+
 Модуль использует открытое [API](https://cbr.ru/development/sxml/).
 
 Лицензия MIT.
@@ -38,3 +39,4 @@ cbrf_client.get_rates()
      }
 ]
 ```
+
