@@ -8,7 +8,7 @@ from .constants import DATE_FORMAT
 from .exception import ConvertError
 
 
-def convert_date_to_string(date: datetime.date):
+def convert_date_to_string(date: datetime.date) -> str:
     try:
         return date.strftime(DATE_FORMAT)
     except ValueError as err:
