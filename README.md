@@ -1,1 +1,1 @@
-# cbrf_rates
+# cbrf_exchange_rates
